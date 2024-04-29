@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.hero {
+    background: url('background.jpg') center/cover;
+    color: #000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.features {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.feature {
+    margin: 20px;
+}
+
+.feature i {
+    font-size: 36px;
+    color: #f39c12;
+}
+
+.feature h2 {
+    font-size: 24px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 10px; 
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.18); 
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+
+.cta-button {
+    background: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+

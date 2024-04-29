@@ -1,0 +1,26 @@
+/* style2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container {
+    width: 500px;
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.6);
+}
+
+.welcome-container h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.welcome-container p {
+    margin-bottom: 15px;
+}
